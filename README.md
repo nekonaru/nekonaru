@@ -94,8 +94,6 @@
 
 <div align="center">
 
-[![My GitHub statistics](./assets/userstats.svg)](https://github.com/cicirello/user-statistician)
-
 <img src="./profile/streak.svg" alt="Streak" />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="90%" />
