@@ -134,10 +134,12 @@ def repo_cards():
     return "<table>\n<tr>\n" + "\n".join(cells) + "\n</tr>\n</table>"
 
 
-def replace_block(text, name, body):
+def replace_block(text, name, body, inline=False):
     pattern = re.compile(rf"(<!--START_SECTION:{name}-->)(.*?)(<!--END_SECTION:{name}-->)", re.S)
     if not pattern.search(text):
         raise SystemExit(f"Marker {name} not found in README")
+    if inline:
+        return pattern.sub(lambda m: f"{m.group(1)}{body}{m.group(3)}", text)
     return pattern.sub(lambda m: f"{m.group(1)}\n{body}\n{m.group(3)}", text)
 
 
@@ -145,7 +147,7 @@ def main():
     with open(README, encoding="utf-8") as f:
         text = f.read()
     text = replace_block(text, "repos", repo_cards())
-    text = replace_block(text, "toplang", top_language_badge())
+    text = replace_block(text, "toplang", top_language_badge(), inline=True)
     with open(README, "w", encoding="utf-8") as f:
         f.write(text)
     print("README updated")
