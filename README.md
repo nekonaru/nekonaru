@@ -97,8 +97,6 @@ I'm a Bisnis Digital student, still learning as I go. Open source enjoyer, mostl
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="90%" />
 
-<img src="./assets/metrics.svg" alt="Metrics" width="95%" />
-
 </div>
 
 ---
