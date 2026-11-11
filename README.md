@@ -93,14 +93,7 @@ I'm a Bisnis Digital student, still learning as I go. Open source enjoyer, mostl
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nekonaru&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&icon_color=7dcfff&text_color=c0caf5" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nekonaru&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&text_color=c0caf5&langs_count=8" alt="Top Languages" />
-
 <img src="https://streak-stats.demolab.com?user=nekonaru&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=f7768e&currStreakLabel=7dcfff" alt="Streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nekonaru&bg_color=1a1b27&color=c0caf5&line=7aa2f7&point=7dcfff&area=true&area_color=7aa2f7&hide_border=true" alt="Contribution Activity" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=nekonaru&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7&row=1" alt="Trophies" />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="90%" />
 
