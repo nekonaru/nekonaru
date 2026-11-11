@@ -81,6 +81,32 @@ def stars_badge(repo_name):
     return f'<img src="{src}" alt="Stars" />'
 
 
+def repo_languages():
+    repos = api(f"/users/{USER}/repos?sort=pushed&per_page=100&type=owner")
+    repos = [r for r in repos if not r["fork"] and not r["archived"] and r["name"].lower() != USER.lower()]
+    totals = {}
+    for r in repos:
+        try:
+            langs = api(f"/repos/{USER}/{r['name']}/languages")
+        except Exception:
+            continue
+        for lang, size in langs.items():
+            totals[lang] = totals.get(lang, 0) + size
+    return totals
+
+
+def top_language_badge():
+    totals = repo_languages()
+    if not totals:
+        return '![Top Language](https://img.shields.io/badge/Top%20Lang-unknown-24283b?style=flat-square)'
+    language = max(totals, key=totals.get)
+    color, logo, logo_color = LANG_BADGES.get(language, ("24283b", None, "white"))
+    src = f"https://img.shields.io/badge/Top%20Lang-{quote(language, safe='')}-{color}?style=flat-square&logoColor={logo_color}"
+    if logo:
+        src += f"&logo={logo}"
+    return f"![Top Language]({src})"
+
+
 def repo_cards():
     repos = api(f"/users/{USER}/repos?sort=pushed&per_page=100&type=owner")
     repos = [r for r in repos if not r["fork"] and not r["archived"] and r["name"].lower() != USER.lower()]
@@ -119,6 +145,7 @@ def main():
     with open(README, encoding="utf-8") as f:
         text = f.read()
     text = replace_block(text, "repos", repo_cards())
+    text = replace_block(text, "toplang", top_language_badge())
     with open(README, "w", encoding="utf-8") as f:
         f.write(text)
     print("README updated")

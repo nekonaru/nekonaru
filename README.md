@@ -9,6 +9,11 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=nekonaru&style=flat-square&color=82aaff&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/nekonaru?style=flat-square&color=c792ea&logo=github&logoColor=c3cefa&label=FOLLOWERS)
 ![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnekonaru&query=%24.public_repos&label=REPOS&style=flat-square&color=82aaff&logo=github&logoColor=1a1b27)
+![Joined](https://img.shields.io/badge/Joined-Sep%202025-24283b?style=flat-square&logo=github&logoColor=c3cefa)
+<!--START_SECTION:toplang-->
+![Top Language](https://img.shields.io/badge/Top%20Lang-C%23-512BD4?style=flat-square&logoColor=white&logo=csharp)
+<!--END_SECTION:toplang-->
+![Open Source](https://img.shields.io/badge/open%20source-enjoyer-24283b?style=flat-square&logo=github&logoColor=c792ea)
 
 </div>
 
@@ -22,6 +27,12 @@
 <table>
 <tr>
 <td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
+<sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Updated 11 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
 <sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=c792ea" alt="Stars" /><br/>
@@ -31,12 +42,6 @@
 <b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
 <sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=c792ea" alt="Stars" /><br/>
-<sub>Updated 11 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/morfa">morfa</a></b><br/>
-<sub>A free, open-source file converter you use by dragging: hold a key and drop files on a...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/morfa?style=flat-square&color=c792ea" alt="Stars" /><br/>
 <sub>Updated 11 Nov 2026</sub>
 </td>
 </tr>
