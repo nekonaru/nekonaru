@@ -33,6 +33,14 @@ Mahasiswa **D4 Bisnis Digital** di Polinbang yang suka membuat tool kecil yang b
 > Tabel ini diperbarui otomatis oleh GitHub Actions setiap 6 jam, diambil dari repo yang terakhir di-push.
 
 <!--START_SECTION:repos-->
+| Project | Deskripsi | Bahasa | ⭐ | Update |
+| :-- | :-- | :-- | :-: | :-- |
+| **[swara](https://github.com/nekonaru/swara)** | Play your music collection offline with automatic metadata, synced lyrics, playlists, a... | Dart | 0 | 11 Nov 2026 |
+| **[morfa](https://github.com/nekonaru/morfa)** | A free, open-source file converter you use by dragging: hold a key and drop files on a... | C# | 0 | 11 Nov 2026 |
+| **[lekas](https://github.com/nekonaru/lekas)** | Track student tasks and deadlines offline-first, capture them from chat in 5 seconds, f... | Dart | 0 | 11 Nov 2026 |
+| **[getta](https://github.com/nekonaru/getta)** | Fetch media and files from across the web into your own folders with a resumable queue... | Rust | 0 | 11 Nov 2026 |
+| **[niusic](https://github.com/nekonaru/niusic)** | Play local and online music on Android and Windows with library, queue, playlists, YouT... | Dart | 0 | 11 Nov 2026 |
+| **[talos](https://github.com/nekonaru/talos)** | Download videos and audio from the web with playlists, subtitles, embedded metadata and... | Dart | 0 | 10 Nov 2026 |
 <!--END_SECTION:repos-->
 
 ---
@@ -40,6 +48,11 @@ Mahasiswa **D4 Bisnis Digital** di Polinbang yang suka membuat tool kecil yang b
 ## ⚡ Aktivitas Terbaru
 
 <!--START_SECTION:activity-->
+- 🚀 Rilis `v0.2.3` di [nekonaru/talos](https://github.com/nekonaru/talos) (11 Nov 2026)
+- 🔨 Push ke [nekonaru/talos](https://github.com/nekonaru/talos): `update` (10 Nov 2026)
+- 🔨 Push ke [nekonaru/morfa](https://github.com/nekonaru/morfa): `update` (10 Nov 2026)
+- 🔨 Push ke [nekonaru/niusic](https://github.com/nekonaru/niusic): `update` (10 Nov 2026)
+- 🔨 Push ke [nekonaru/getta](https://github.com/nekonaru/getta): `update` (9 Nov 2026)
 <!--END_SECTION:activity-->
 
 ---
