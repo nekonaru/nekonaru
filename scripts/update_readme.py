@@ -77,7 +77,7 @@ def lang_badge(language):
 
 
 def stars_badge(repo_name):
-    src = f"https://img.shields.io/github/stars/{USER}/{repo_name}?style=flat-square&color=bb9af7"
+    src = f"https://img.shields.io/github/stars/{USER}/{repo_name}?style=flat-square&color=c792ea"
     return f'<img src="{src}" alt="Stars" />'
 
 
