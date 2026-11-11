@@ -9,7 +9,6 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=nekonaru&style=flat-square&color=82aaff&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/nekonaru?style=flat-square&color=c792ea&logo=github&logoColor=c3cefa&label=FOLLOWERS)
 ![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnekonaru&query=%24.public_repos&label=REPOS&style=flat-square&color=82aaff&logo=github&logoColor=1a1b27)
-![Location](https://img.shields.io/badge/Indonesia-24283b?style=flat-square&logo=googlemaps&logoColor=c792ea)
 
 </div>
 
@@ -60,7 +59,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=nekonaru&theme=midnight&hide_border=true&background=1a1b27" alt="Streak" />
+<img src="https://streak-stats.demolab.com?user=nekonaru&theme=midnight&hide_border=true&background=1a1b27&ring=c792ea&fire=ff9e64&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=c792ea&sideLabels=82aaff&dates=82aaff" alt="Streak" />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="90%" />
 
