@@ -40,3 +40,4 @@ jobs:
           plugin_languages_ignored: html, css, tex
           plugin_languages_limit: 6
           plugin_languages_details: percentage
+          debug_flags: --puppeteer-wait-domcontentloaded
