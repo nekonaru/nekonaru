@@ -45,6 +45,41 @@
 
 ---
 
+## Featured Tools
+
+> Hand-picked, all free and open source.
+
+<table>
+<tr>
+<td align="center" width="25%">
+<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
+<sub>Play your music collection offline: automatic metadata, synced lyrics, playlists and a listening analytics dashboard</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Flutter, Android and Windows</sub>
+</td>
+<td align="center" width="25%">
+<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
+<sub>Download videos and audio from the web: playlists, subtitles, embedded metadata and an embedded yt-dlp engine</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Android, iOS, Windows, macOS, Linux</sub>
+</td>
+<td align="center" width="25%">
+<b><a href="https://github.com/nekonaru/morfa">morfa</a></b><br/>
+<sub>Free, open source file converter: hold a key and drop files on a format in the donut at your cursor</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/morfa?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>263 formats, fully local</sub>
+</td>
+<td align="center" width="25%">
+<b><a href="https://github.com/nekonaru/getta">getta</a></b><br/>
+<sub>Fetch media and files from across the web with a resumable queue and verified engine downloads</sub><br/><br/>
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logoColor=white&logo=rust" alt="Rust" /> <img src="https://img.shields.io/github/stars/nekonaru/getta?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>No account, no limits</sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## Tech Stack
 
 <div align="center">
@@ -59,7 +94,9 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=nekonaru&theme=midnight&hide_border=true&background=1a1b27&ring=c792ea&fire=ff9e64&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=c792ea&sideLabels=82aaff&dates=82aaff" alt="Streak" />
+[![My GitHub statistics](./assets/userstats.svg)](https://github.com/cicirello/user-statistician)
+
+<img src="./profile/streak.svg" alt="Streak" />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="90%" />
 
