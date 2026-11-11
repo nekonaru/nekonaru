@@ -20,6 +20,12 @@
 <table>
 <tr>
 <td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/niusic">niusic</a></b><br/>
+<sub>Play local and online music on Android and Windows with library, queue, playlists, YouT...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/niusic?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Updated 11 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
 <sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=c792ea" alt="Stars" /><br/>
@@ -29,12 +35,6 @@
 <b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
 <sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=c792ea" alt="Stars" /><br/>
-<sub>Updated 11 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
-<sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=c792ea" alt="Stars" /><br/>
 <sub>Updated 11 Nov 2026</sub>
 </td>
 </tr>
