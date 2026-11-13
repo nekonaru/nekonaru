@@ -77,7 +77,7 @@ def lang_badge(language):
 
 
 def stars_badge(repo_name):
-    src = f"https://img.shields.io/github/stars/{USER}/{repo_name}?style=flat-square&color=c792ea"
+    src = f"https://img.shields.io/github/stars/{USER}/{repo_name}?style=flat-square&color=59636e"
     return f'<img src="{src}" alt="Stars" />'
 
 
@@ -100,8 +100,8 @@ def top_language_badge():
     if not totals:
         return '![Top Language](https://img.shields.io/badge/Top%20Lang-unknown-24283b?style=flat-square)'
     language = max(totals, key=totals.get)
-    color, logo, logo_color = LANG_BADGES.get(language, ("24283b", None, "white"))
-    src = f"https://img.shields.io/badge/Top%20Lang-{quote(language, safe='')}-{color}?style=flat-square&logoColor={logo_color}"
+    _, logo, _ = LANG_BADGES.get(language, (None, None, None))
+    src = f"https://img.shields.io/badge/Top%20Lang-{quote(language, safe='')}-21262d?style=flat-square&logoColor=e6edf3"
     if logo:
         src += f"&logo={logo}"
     return f"![Top Language]({src})"
