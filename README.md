@@ -69,10 +69,10 @@
 
 <div align="center">
 
+[![Email](https://img.shields.io/badge/Email-24283b?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:nicolasdwidharma@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-24283b?style=flat-square&logo=instagram&logoColor=E4405F)](https://instagram.com/nekonaruuu)
 [![TikTok](https://img.shields.io/badge/TikTok-24283b?style=flat-square&logo=tiktok&logoColor=ffffff)](https://www.tiktok.com/@nekonaruuu)
-[![Sociabuzz](https://img.shields.io/badge/Support_me-24283b?style=flat-square&logo=buymeacoffee&logoColor=c792ea)](https://sociabuzz.com/nekonaru/donate)
-[![Email](https://img.shields.io/badge/Email-24283b?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:nicolasdwidharma@gmail.com)
+[![Support](https://img.shields.io/badge/Support-24283b?style=flat-square&logo=buymeacoffee&logoColor=c792ea)](https://sociabuzz.com/nekonaru/donate)
 
 </div>
 
