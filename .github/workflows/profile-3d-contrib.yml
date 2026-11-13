@@ -22,6 +22,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Strip footer from night-rainbow SVG
+        run: python3 scripts/strip_3d_footer.py profile-3d-contrib/profile-night-rainbow.svg
       - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"

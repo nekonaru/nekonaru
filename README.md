@@ -47,7 +47,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=dart,flutter,ts,js,python,cs,rust,html,css,nextjs,supabase,git,github,vscode&theme=dark&perline=7" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=dart,flutter,cs,rust,ts,js,nodejs,python,php,laravel,html,css,svelte,nextjs,supabase,postgres,cpp,cmake,kotlin,git,github,vscode,bash,powershell&theme=dark&perline=8" alt="Tech stack" />
 
 </div>
 
