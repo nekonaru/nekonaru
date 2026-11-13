@@ -6,7 +6,7 @@
 
 <br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=nekonaru&style=flat-square&color=323a45&label=Profile+Views) ![Followers](https://img.shields.io/github/followers/nekonaru?style=flat-square&color=323a45&logo=github&logoColor=e6edf3&label=Followers) ![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnekonaru&query=%24.public_repos&label=Repos&style=flat-square&color=323a45&logo=github&logoColor=e6edf3) ![Joined](https://img.shields.io/badge/Joined-Sep%202025-21262d?style=flat-square&logo=github&logoColor=e6edf3) <!--START_SECTION:toplang-->![Top Language](https://img.shields.io/badge/Top%20Lang-C%23-21262d?style=flat-square&logoColor=e6edf3&logo=csharp)<!--END_SECTION:toplang-->
+![Profile Views](https://komarev.com/ghpvc/?username=nekonaru&style=flat-square&color=ff9e64&label=Profile+Views) ![Followers](https://img.shields.io/github/followers/nekonaru?style=flat-square&color=26a641&logo=github&logoColor=ffffff&label=Followers) ![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnekonaru&query=%24.public_repos&label=Repos&style=flat-square&color=58a6ff&logo=github&logoColor=ffffff) ![Joined](https://img.shields.io/badge/Joined-Sep%202025-d29922?style=flat-square&logo=github&logoColor=1a1b27) <!--START_SECTION:toplang-->![Top Language](https://img.shields.io/badge/Top%20Lang-C%23-512BD4?style=flat-square&logoColor=white&logo=csharp)<!--END_SECTION:toplang-->
 
 </div>
 

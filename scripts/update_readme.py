@@ -19,7 +19,7 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", 
 LANG_BADGES = {
     "Dart": ("0175C2", "dart", "white"),
     "C#": ("512BD4", "csharp", "white"),
-    "Rust": ("000000", "rust", "white"),
+    "Rust": ("dea584", "rust", "white"),
     "Python": ("3776AB", "python", "white"),
     "TypeScript": ("3178C6", "typescript", "white"),
     "JavaScript": ("F7DF1E", "javascript", "black"),
@@ -100,8 +100,8 @@ def top_language_badge():
     if not totals:
         return '![Top Language](https://img.shields.io/badge/Top%20Lang-unknown-24283b?style=flat-square)'
     language = max(totals, key=totals.get)
-    _, logo, _ = LANG_BADGES.get(language, (None, None, None))
-    src = f"https://img.shields.io/badge/Top%20Lang-{quote(language, safe='')}-21262d?style=flat-square&logoColor=e6edf3"
+    color, logo, logo_color = LANG_BADGES.get(language, ("24283b", None, "white"))
+    src = f"https://img.shields.io/badge/Top%20Lang-{quote(language, safe='')}-{color}?style=flat-square&logoColor={logo_color}"
     if logo:
         src += f"&logo={logo}"
     return f"![Top Language]({src})"
