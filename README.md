@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
-<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=c792ea" alt="Stars" /><br/>
-<sub>Updated 12 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
 <sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=c792ea" alt="Stars" /><br/>
-<sub>Updated 12 Nov 2026</sub>
+<sub>Updated 13 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/niusic">niusic</a></b><br/>
-<sub>Play local and online music on Android and Windows with library, queue, playlists, YouT...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/niusic?style=flat-square&color=c792ea" alt="Stars" /><br/>
-<sub>Updated 12 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/rentra">rentra</a></b><br/>
+<sub>Ubah pertanyaan ketersediaan menjadi satu link booking publik dengan kalender ketersedi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logoColor=white&logo=php" alt="PHP" /> <img src="https://img.shields.io/github/stars/nekonaru/rentra?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Updated 13 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/stashify">stashify</a></b><br/>
+<sub>Stashify finds songs from your Spotify library on YouTube and saves them locally with c...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white&logo=python" alt="Python" /> <img src="https://img.shields.io/github/stars/nekonaru/stashify?style=flat-square&color=c792ea" alt="Stars" /><br/>
+<sub>Updated 13 Nov 2026</sub>
 </td>
 </tr>
 </table>
