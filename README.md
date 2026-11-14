@@ -20,9 +20,9 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
-<sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/gimdeks">gimdeks</a></b><br/>
+<sub>Track a game collection across every drive with automatic capacity totals, storage limi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/gimdeks?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 14 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
@@ -32,9 +32,9 @@
 <sub>Updated 14 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
-<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/stashify">stashify</a></b><br/>
+<sub>Stashify finds songs from your Spotify library on YouTube and saves them locally with c...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white&logo=python" alt="Python" /> <img src="https://img.shields.io/github/stars/nekonaru/stashify?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 14 Nov 2026</sub>
 </td>
 </tr>
