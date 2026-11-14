@@ -26,15 +26,15 @@
 <sub>Updated 14 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
-<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/koe">koe</a></b><br/>
+<sub>Transcribe audio and video to text in your browser, free and unlimited. Fully private a...</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white&logo=typescript" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/nekonaru/koe?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 14 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/gametech26">gametech26</a></b><br/>
-<sub>Asap yang Tak Padam, game horor naratif psikologis 3D berlatar desa Indonesia, dimainka...</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white&logo=typescript" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/nekonaru/gametech26?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
+<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 14 Nov 2026</sub>
 </td>
 </tr>
