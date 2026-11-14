@@ -47,7 +47,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=dart,cs,rust,ts,js,python,php&theme=dark&perline=7" alt="Programming languages" />
+<img src="https://skillicons.dev/icons?i=cs,dart,ts,js,python,kotlin,php,cpp,rust,c,java,swift,bash,powershell&theme=dark&perline=7" alt="Programming languages" />
 
 </div>
 
