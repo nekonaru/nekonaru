@@ -20,21 +20,21 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/gimdeks">gimdeks</a></b><br/>
-<sub>Track a game collection across every drive with automatic capacity totals, storage limi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/gimdeks?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/stoop">stoop</a></b><br/>
+<sub>Track product prices from watched URLs and get a Telegram message when they drop to you...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logoColor=white&logo=ruby" alt="Ruby" /> <img src="https://img.shields.io/github/stars/nekonaru/stoop?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 15 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/flip30">flip30</a></b><br/>
-<sub>Catch food, dodge enemies, and re-learn the rules every 30 seconds in this arcade survi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Lua-24283b?style=flat-square&logoColor=white" alt="Lua" /> <img src="https://img.shields.io/github/stars/nekonaru/flip30?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/skiff">skiff</a></b><br/>
+<sub>Serve any folder as a static website over HTTP with directory listing, media streaming...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Zig-24283b?style=flat-square&logoColor=white" alt="Zig" /> <img src="https://img.shields.io/github/stars/nekonaru/skiff?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 15 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kikoe">kikoe</a></b><br/>
-<sub>Transcribe audio and video into text and subtitles entirely on your device. Free, unlim...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logoColor=white&logo=cplusplus" alt="C++" /> <img src="https://img.shields.io/github/stars/nekonaru/kikoe?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/cascade">cascade</a></b><br/>
+<sub>Simulate how a rumor spreads through a social network and compare interventions like ea...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Julia-24283b?style=flat-square&logoColor=white" alt="Julia" /> <img src="https://img.shields.io/github/stars/nekonaru/cascade?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 15 Nov 2026</sub>
 </td>
 </tr>
