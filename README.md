@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/stoop">stoop</a></b><br/>
-<sub>Track product prices from watched URLs and get a Telegram message when they drop to you...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logoColor=white&logo=ruby" alt="Ruby" /> <img src="https://img.shields.io/github/stars/nekonaru/stoop?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/skiff">skiff</a></b><br/>
-<sub>Serve any folder as a static website over HTTP with directory listing, media streaming...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Zig-24283b?style=flat-square&logoColor=white" alt="Zig" /> <img src="https://img.shields.io/github/stars/nekonaru/skiff?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/kikoe">kikoe</a></b><br/>
+<sub>Transcribe audio and video into text and subtitles entirely on your device. Free, unlim...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/kikoe?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 16 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/cascade">cascade</a></b><br/>
 <sub>Simulate how a rumor spreads through a social network and compare interventions like ea...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Julia-24283b?style=flat-square&logoColor=white" alt="Julia" /> <img src="https://img.shields.io/github/stars/nekonaru/cascade?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
+<sub>Updated 16 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
+<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 16 Nov 2026</sub>
 </td>
 </tr>
 </table>
