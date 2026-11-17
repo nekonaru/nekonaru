@@ -20,6 +20,12 @@
 <table>
 <tr>
 <td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/gametech26">gametech26</a></b><br/>
+<sub>Asap yang Tak Padam, game horor naratif psikologis 3D berlatar desa Indonesia, dimainka...</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white&logo=typescript" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/nekonaru/gametech26?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 16 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/rushlane">rushlane</a></b><br/>
 <sub>Simulate how a campus canteen queue behaves with non-uniform arrivals, service times, b...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Julia-24283b?style=flat-square&logoColor=white" alt="Julia" /> <img src="https://img.shields.io/github/stars/nekonaru/rushlane?style=flat-square&color=26a641" alt="Stars" /><br/>
@@ -29,12 +35,6 @@
 <b><a href="https://github.com/nekonaru/skiff">skiff</a></b><br/>
 <sub>Serve any folder as a static website over HTTP with directory listing, media streaming...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Zig-24283b?style=flat-square&logoColor=white" alt="Zig" /> <img src="https://img.shields.io/github/stars/nekonaru/skiff?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 16 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/augur">augur</a></b><br/>
-<sub>Turn CSV sales data into honest forecasts and plain-language insights for small busines...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Julia-24283b?style=flat-square&logoColor=white" alt="Julia" /> <img src="https://img.shields.io/github/stars/nekonaru/augur?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 16 Nov 2026</sub>
 </td>
 </tr>
