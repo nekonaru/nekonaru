@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/morfa">morfa</a></b><br/>
-<sub>A free, open-source file converter you use by dragging: hold a key and drop files on a...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/morfa?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
+<sub>An Android app that connects homeowners with verified electricians, plumbers and AC tec...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 18 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/wattpdl">wattpdl</a></b><br/>
+<sub>Download Wattpad stories as offline .txt, .docx, .epub, .md, or .pdf files, whole or ch...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white&logo=python" alt="Python" /> <img src="https://img.shields.io/github/stars/nekonaru/wattpdl?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 18 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
 <sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 17 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/gimdeks">gimdeks</a></b><br/>
-<sub>Track a game collection across every drive with automatic capacity totals, storage limi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/gimdeks?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 17 Nov 2026</sub>
+<sub>Updated 18 Nov 2026</sub>
 </td>
 </tr>
 </table>
