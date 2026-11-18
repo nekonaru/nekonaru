@@ -20,10 +20,10 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/pedeef">pedeef</a></b><br/>
-<sub>All your PDF tools in one free app. Everything runs on your phone, your files stay in D...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/pedeef?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 17 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/morfa">morfa</a></b><br/>
+<sub>A free, open-source file converter you use by dragging: hold a key and drop files on a...</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/morfa?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 18 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
@@ -32,9 +32,9 @@
 <sub>Updated 17 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kikoe">kikoe</a></b><br/>
-<sub>Transcribe audio and video into text and subtitles entirely on your device. Free, unlim...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/kikoe?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/gimdeks">gimdeks</a></b><br/>
+<sub>Track a game collection across every drive with automatic capacity totals, storage limi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/gimdeks?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 17 Nov 2026</sub>
 </td>
 </tr>
