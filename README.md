@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/gimdeks">gimdeks</a></b><br/>
-<sub>Track a game collection across every drive with automatic capacity totals, storage limi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/gimdeks?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
+<sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/flip30">flip30</a></b><br/>
-<sub>Catch food, dodge enemies, and re-learn the rules every 30 seconds in this arcade survi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Lua-24283b?style=flat-square&logoColor=white" alt="Lua" /> <img src="https://img.shields.io/github/stars/nekonaru/flip30?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
+<sub>Aplikasi Android native untuk memesan teknisi rumah terverifikasi (listrik, pipa, servi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kikoe">kikoe</a></b><br/>
-<sub>Transcribe audio and video into text and subtitles entirely on your device. Free, unlim...</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logoColor=white&logo=cplusplus" alt="C++" /> <img src="https://img.shields.io/github/stars/nekonaru/kikoe?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 15 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/kalkulasa">kalkulasa</a></b><br/>
+<sub>Urusi stok dan kas warung harian dengan kasir satu ketuk, modal per barang otomatis, da...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/kalkulasa?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 </tr>
 </table>
