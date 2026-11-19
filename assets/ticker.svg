@@ -2,12 +2,13 @@
 
 <clipPath id="clip"><rect x="0" y="0" width="1200" height="46"/></clipPath>
 <rect width="1200" height="46" fill="#161b22"/>
-<rect x="0" y="0" width="1200" height="2" fill="#30363d" opacity="0.4"/>
-<rect x="0" y="44" width="1200" height="2" fill="#30363d" opacity="0.4"/>
+<polygon points="0,0 1200,0 1152,46 0,46" fill="#1a222e" opacity="0.5"/>
+<rect x="0" y="0" width="1200" height="1" fill="#30363d" opacity="0.6"/>
+<rect x="0" y="45" width="1200" height="1" fill="#30363d" opacity="0.6"/>
 <g clip-path="url(#clip)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="15" fill="#8b949e" letter-spacing="2">
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;-920 0" dur="60s" repeatCount="indefinite"/>
-    <text x="0" y="29" xml:space="preserve">SWARA  //  TALOS  //  MORFA  //  GETTA  //  NIUSIC  //  LEKAS  //  WEBSITEKWU  //  GAMETECH26  //  STASHIFY  //  RENTRA  //  SWARA  //  TALOS  //  MORFA  //  GETTA  //  NIUSIC  //  LEKAS  //  WEBSITEKWU  //  GAMETECH26  //  STASHIFY  //  RENTRA  //  </text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-1675 0" dur="46s" repeatCount="indefinite"/>
+    <text x="0" y="29" xml:space="preserve">SWARA  //  TALOS  //  MORFA  //  GETTA  //  NIUSIC  //  LEKAS  //  WEBSITEKWU  //  GAMETECH26  //  STASHIFY  //  RENTRA  //  SWARA  //  TALOS  //  MORFA  //  GETTA  //  NIUSIC  //  LEKAS  //  WEBSITEKWU  //  GAMETECH26  //  STASHIFY  //  RENTRA  //  SWARA  //  TALOS  //  MORFA  //  GETTA  //  NIUSIC  //  LEKAS  //  WEBSITEKWU  //  GAMETECH26  //  STASHIFY  //  RENTRA  //  </text>
   </g>
 </g>
 

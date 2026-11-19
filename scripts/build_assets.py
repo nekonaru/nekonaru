@@ -115,17 +115,42 @@ def cat_glow():
 
 
 def hero():
+    rng = random.Random(7)
+    rain = []
+    for _ in range(36):
+        x = rng.uniform(30, 1170)
+        delay = rng.uniform(0, 3.5)
+        dur = rng.uniform(1.5, 2.7)
+        ln = rng.uniform(30, 62)
+        rain.append(
+            f'<line x1="{x:.0f}" y1="0" x2="{x + 9:.0f}" y2="{ln:.0f}" stroke="{STRONG}" stroke-width="1.6" opacity="0" stroke-linecap="round">'
+            f'<animate attributeName="opacity" values="0;0.5;0" dur="{dur:.1f}s" begin="-{delay:.1f}s" repeatCount="indefinite"/>'
+            f'<animate attributeName="y1" values="-80;470" dur="{dur:.1f}s" begin="-{delay:.1f}s" repeatCount="indefinite"/>'
+            f'<animate attributeName="y2" values="{-80 + ln:.0f};470" dur="{dur:.1f}s" begin="-{delay:.1f}s" repeatCount="indefinite"/>'
+            f"</line>"
+        )
     body = f"""
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0d1117"/>
-    <stop offset="0.55" stop-color="#111a26"/>
-    <stop offset="1" stop-color="#1a2433"/>
+    <stop offset="0" stop-color="#0b1018"><animate attributeName="stop-color" values="#0b1018;#0e1620;#0b1018" dur="11s" repeatCount="indefinite"/></stop>
+    <stop offset="0.55" stop-color="#101a28"/>
+    <stop offset="1" stop-color="#1b2637"/>
   </linearGradient>
+  <radialGradient id="moonGlow" cx="0.84" cy="0.22" r="0.3">
+    <stop offset="0" stop-color="#f0f6fc" stop-opacity="0.35"><animate attributeName="stop-opacity" values="0.25;0.42;0.25" dur="5s" repeatCount="indefinite"/></stop>
+    <stop offset="0.55" stop-color="#f0f6fc" stop-opacity="0.06"/>
+    <stop offset="1" stop-color="#f0f6fc" stop-opacity="0"/>
+  </radialGradient>
   <linearGradient id="glowline" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="{GREEN}" stop-opacity="0"/>
     <stop offset="0.5" stop-color="{GREEN}"/>
     <stop offset="1" stop-color="{GREEN}" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="neonGround" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="{GREEN}" stop-opacity="0.05"/>
+    <stop offset="0.45" stop-color="{GREEN}" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="{GREEN}" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="{GREEN}" stop-opacity="0.05"/>
   </linearGradient>
   <clipPath id="frame"><rect x="26" y="26" width="1148" height="388" rx="18"/></clipPath>
 </defs>
@@ -133,29 +158,65 @@ def hero():
 <g clip-path="url(#frame)">
   <rect x="26" y="26" width="1148" height="388" fill="url(#sky)"/>
   {stars(70, 1200, 1200, 200)}
-  {moon_and_stars()}
-  {shooting_star()}
-  {skyline(1200, 350, "#141b26", 7)}
-  {skyline(1200, 395, "#0d121b", 21)}
-  {cat_glow()}
-  <rect x="26" y="395" width="1148" height="20" fill="#0a0e14"/>
+  <rect x="26" y="26" width="1148" height="388" fill="url(#moonGlow)"/>
+  <circle cx="1008" cy="96" r="52" fill="#e8eef7"><animate attributeName="r" values="52;53.5;52" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="988" cy="82" r="8" fill="#c9d3e2" opacity="0.55"/>
+  <circle cx="1032" cy="110" r="5" fill="#c9d3e2" opacity="0.5"/>
+  <circle cx="1014" cy="72" r="4" fill="#c9d3e2" opacity="0.45"/>
+  <g stroke="{STRONG}" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M0 0 L74 -22"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.55;0.58;0.72;1" dur="8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="180 40;180 40;830 172;880 190;880 190" keyTimes="0;0.55;0.72;0.78;1" dur="8s" repeatCount="indefinite"/></path>
+  </g>
+  {skyline(1200, 350, "#131c28", 7)}
+  {skyline(1200, 395, "#0c1119", 21)}
+  {''.join(rain)}
+  <rect x="26" y="395" width="1148" height="19" fill="#0a0e14"/>
+  <rect x="26" y="392" width="1148" height="4" fill="url(#neonGround)"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/></rect>
+  <g transform="translate(975, 138)">
+    <g stroke="{GREEN}" stroke-width="4.5" stroke-linejoin="round" fill="#04070d" stroke-linecap="round">
+      <path d="M-8 66 L10 0 L33 52 Z"/>
+      <path d="M73 52 L96 0 L114 66 Z"/>
+      <rect x="0" y="48" width="106" height="80" rx="20"/>
+      <path d="M10 122 L10 238 L98 238 L98 122 Z"/>
+      <rect x="-6" y="238" width="122" height="10" rx="4" fill="#04070d"><animate attributeName="y" values="238;229;238" dur="3.4s" repeatCount="indefinite"/></rect>
+    </g>
+    <g transform="translate(92, 150)">
+      <path d="M0 0 Q46 12 42 74" stroke="{GREEN}" stroke-width="7" fill="none" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0;-16 0 0;0 0 0" dur="3.1s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <rect x="28" y="88" width="14" height="10" rx="5" fill="{GREEN}"><animate attributeName="height" values="10;10;1.2;10;10" keyTimes="0;0.42;0.48;0.55;1" dur="4.6s" repeatCount="indefinite"/></rect>
+    <rect x="64" y="88" width="14" height="10" rx="5" fill="{GREEN}"><animate attributeName="height" values="10;10;1.2;10;10" keyTimes="0;0.42;0.48;0.55;1" dur="4.6s" begin="-0.2s" repeatCount="indefinite"/></rect>
+    <path d="M53 108 L53 116" stroke="{GREEN}" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
 </g>
 <rect x="26" y="26" width="1148" height="388" rx="18" fill="none" stroke="{BORDER}" stroke-width="2"/>
-<rect x="26" y="298" width="520" height="70" fill="{BG}" opacity="0.55"/>
-<text x="60" y="92" font-family="{FONT}" font-size="17" fill="{GREEN}" letter-spacing="6">G I T H U B</text>
-<text x="58" y="150" font-family="{SANS}" font-size="56" font-weight="800" fill="{STRONG}">Nicolas Dwi Dharma</text>
-<text x="58" y="192" font-family="{FONT}" font-size="19" fill="{MUTED}">@nekonaru // explorer</text>
-<g font-family="{FONT}" font-size="14">
-  <rect x="56" y="222" width="172" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"/>
-  <text x="142" y="242" fill="{FG}" text-anchor="middle">offline-first tools</text>
-  <rect x="238" y="222" width="140" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"/>
-  <text x="308" y="242" fill="{FG}" text-anchor="middle">web and game</text>
-  <rect x="388" y="222" width="158" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"/>
-  <text x="467" y="242" fill="{FG}" text-anchor="middle">open source</text>
+<rect x="26" y="288" width="540" height="92" fill="{BG}" opacity="0.62"/>
+<g font-family="{FONT}" opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+  <text x="56" y="84" font-size="16" fill="{GREEN}" letter-spacing="6">G I T H U B</text>
 </g>
-<rect x="56" y="272" width="470" height="3" fill="url(#glowline)"/>
-<text x="56" y="308" font-family="{FONT}" font-size="13" fill="{MUTED}">build in the open, ship what works</text>
-<rect x="26" y="26" width="1148" height="3" fill="url(#glowline)" opacity="0.8"/>
+<g font-family="{SANS}" opacity="0" transform="translate(-34,0)">
+  <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.3s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-34 0;0 0" dur="0.8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+  <text x="54" y="156" font-size="54" font-weight="800" fill="{STRONG}">Nicolas Dwi Dharma</text>
+</g>
+<g font-family="{FONT}" opacity="0" transform="translate(-20,0)">
+  <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.55s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-20 0;0 0" dur="0.7s" begin="0.55s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+  <text x="54" y="198" font-size="19" fill="{MUTED}">@nekonaru // explorer</text>
+</g>
+<g font-family="{FONT}" font-size="14" opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+  <rect x="54" y="224" width="172" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"><animate attributeName="stroke" values="{BORDER};{GREEN};{BORDER}" dur="3.6s" begin="1.5s" repeatCount="indefinite"/></rect>
+  <text x="140" y="244" fill="{FG}" text-anchor="middle">offline-first tools</text>
+  <rect x="236" y="224" width="140" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"/>
+  <text x="306" y="244" fill="{FG}" text-anchor="middle">web and game</text>
+  <rect x="386" y="224" width="158" height="30" rx="15" fill="{PANEL_SOFT}" stroke="{BORDER}"/>
+  <text x="465" y="244" fill="{FG}" text-anchor="middle">open source</text>
+</g>
+<rect x="54" y="276" width="470" height="3" fill="url(#glowline)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+<text x="54" y="310" font-family="{FONT}" font-size="13" fill="{MUTED}">build in the open, <tspan fill="{GREEN}">ship what works</tspan><tspan fill="{GREEN}"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>_</tspan></text>
+<rect x="26" y="26" width="1148" height="3" fill="url(#neonGround)" opacity="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
 """
     return svg(1200, 440, body)
 
@@ -163,16 +224,18 @@ def hero():
 def ticker():
     items = ["SWARA", "TALOS", "MORFA", "GETTA", "NIUSIC", "LEKAS", "WEBSITEKWU", "GAMETECH26", "STASHIFY", "RENTRA"]
     half = "  //  ".join(items) + "  //  "
-    span = 10 * 46
+    char_w = 13.4
+    span = len(half) * char_w
     body = f"""
 <clipPath id="clip"><rect x="0" y="0" width="1200" height="46"/></clipPath>
 <rect width="1200" height="46" fill="{PANEL}"/>
-<rect x="0" y="0" width="1200" height="2" fill="{BORDER}" opacity="0.4"/>
-<rect x="0" y="44" width="1200" height="2" fill="{BORDER}" opacity="0.4"/>
+<polygon points="0,0 1200,0 1152,46 0,46" fill="#1a222e" opacity="0.5"/>
+<rect x="0" y="0" width="1200" height="1" fill="{BORDER}" opacity="0.6"/>
+<rect x="0" y="45" width="1200" height="1" fill="{BORDER}" opacity="0.6"/>
 <g clip-path="url(#clip)" font-family="{FONT}" font-size="15" fill="{MUTED}" letter-spacing="2">
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;-{span * 2} 0" dur="60s" repeatCount="indefinite"/>
-    <text x="0" y="29" xml:space="preserve">{esc(half * 2)}</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-{span:.0f} 0" dur="46s" repeatCount="indefinite"/>
+    <text x="0" y="29" xml:space="preserve">{esc(half * 3)}</text>
   </g>
 </g>
 """
@@ -182,11 +245,22 @@ def ticker():
 def section(label, accent=GREEN):
     return svg(1200, 104, f"""
 <rect width="1200" height="104" fill="{BG}"/>
+<defs>
+  <clipPath id="panelClip"><rect x="330" y="18" width="540" height="68" rx="16"/></clipPath>
+  <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="{accent}" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="{accent}" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="{accent}" stop-opacity="0"/>
+  </linearGradient>
+</defs>
 <line x1="40" y1="52" x2="340" y2="52" stroke="{BORDER}" stroke-width="2"/>
 <line x1="860" y1="52" x2="1160" y2="52" stroke="{BORDER}" stroke-width="2"/>
-<circle cx="356" cy="52" r="4" fill="{accent}"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
-<circle cx="844" cy="52" r="4" fill="{accent}"><animate attributeName="r" values="4;7;4" dur="2s" begin="-1s" repeatCount="indefinite"/></circle>
+<circle cx="356" cy="52" r="4" fill="{accent}"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="844" cy="52" r="4" fill="{accent}"><animate attributeName="r" values="4;8;4" dur="2.2s" begin="-1.1s" repeatCount="indefinite"/></circle>
 <rect x="330" y="18" width="540" height="68" rx="16" fill="{PANEL}" stroke="{accent}" stroke-width="2"/>
+<rect x="330" y="18" width="130" height="68" fill="url(#shimmer)" clip-path="url(#panelClip)">
+  <animate attributeName="x" values="330;870" dur="3.4s" repeatCount="indefinite"/>
+</rect>
 <text x="600" y="62" font-family="{FONT}" font-size="23" font-weight="700" letter-spacing="8" fill="{STRONG}" text-anchor="middle">{esc(label)}</text>
 """)
 
@@ -228,9 +302,12 @@ def neofetch():
 <circle cx="114" cy="62" r="8" fill="{GREEN}"/>
 <text x="600" y="70" font-family="{FONT}" font-size="16" fill="{MUTED}" text-anchor="middle">guest@nekonaru — neofetch</text>
 <line x1="20" y1="84" x2="1180" y2="84" stroke="{BORDER}" stroke-width="2"/>
+<rect x="20" y="84" width="1160" height="60" fill="{GREEN}" opacity="0.05">
+  <animate attributeName="y" values="84;352;84" dur="5.5s" repeatCount="indefinite"/>
+</rect>
 {''.join(cat_rows)}
 {''.join(rows)}
-<rect x="632" y="384" width="13" height="24" fill="{GREEN}"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<rect x="632" y="384" width="13" height="24" fill="{GREEN}"><animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></rect>
 """
     return svg(1200, 430, body)
 
@@ -244,10 +321,10 @@ def timeline():
         ("Nov 2026", "morfa, getta, talos", "file converter and web downloaders", BLUE),
         ("Nov 2026", "Julia, Haskell, Zig, Ruby", "pushing into new languages", GREEN),
     ]
-    y0 = 74
+    y0 = 78
     step = 54
     parts = [f'<rect width="1200" height="430" fill="{BG}"/>']
-    parts.append(f'<line x1="238" y1="{y0}" x2="238" y2="{y0 + step * (len(events) - 1) + 6}" stroke="{BORDER}" stroke-width="3"/>')
+    parts.append(f'<path d="M238 {y0} L238 {y0 + step * (len(events) - 1)}" stroke="{BORDER}" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round"><animate attributeName="stroke-dashoffset" values="0;-144" dur="6s" repeatCount="indefinite"/></path>')
     for i, (date, title, desc, dot) in enumerate(events):
         yy = y0 + i * step
         parts.append(f'<circle cx="238" cy="{yy}" r="9" fill="{BG}" stroke="{dot}" stroke-width="3"><animate attributeName="r" values="9;12;9" dur="2.4s" begin="-{i * 0.4:.1f}s" repeatCount="indefinite"/></circle>')
