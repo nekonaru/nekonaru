@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,50:323a45,100:848d97&height=200&section=header&text=Nicolas%20Dwi%20Dharma&fontSize=44&fontColor=f0f3f6&fontAlignY=38&animation=twinkling&desc=nekonaru&descSize=20&descAlignY=60&descColor=9da7b3" alt="Nicolas Dwi Dharma" />
+<img src="./assets/hero.svg" alt="Nicolas Dwi Dharma, nekonaru, offline-first tools, web and game development, open source enjoyer" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9D1D9&center=true&vCenter=true&width=640&lines=Bisnis+Digital+student%2C+still+learning;Open+source+enjoyer;Random+projects+to+explore+new+things;nekonaru" alt="Typing SVG" />
 
@@ -10,9 +10,11 @@
 
 </div>
 
----
+<img src="./assets/section-journey.svg" alt="Journey" width="100%" />
 
-## Latest Projects
+<img src="./assets/timeline.svg" alt="Timeline of my public work on GitHub" width="100%" />
+
+<img src="./assets/section-projects.svg" alt="Latest Projects" width="100%" />
 
 > Auto-updated every 6 hours by GitHub Actions, based on the repos I last pushed.
 
@@ -41,9 +43,9 @@
 </table>
 <!--END_SECTION:repos-->
 
----
+<img src="./assets/neofetch.svg" alt="neofetch: @nekonaru" width="100%" />
 
-## Tech Stack
+<img src="./assets/section-stack.svg" alt="Tech Stack" width="100%" />
 
 <div align="center">
 
@@ -51,9 +53,7 @@
 
 </div>
 
----
-
-## GitHub Stats
+<img src="./assets/section-stats.svg" alt="GitHub Stats" width="100%" />
 
 <div align="center">
 
@@ -63,21 +63,15 @@
 
 </div>
 
----
-
-## Connect
+<img src="./assets/section-connect.svg" alt="Connect" width="100%" />
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-24283b?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:nicolasdwidharma@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-24283b?style=flat-square&logo=instagram&logoColor=E4405F)](https://instagram.com/nekonaruuu)
-[![TikTok](https://img.shields.io/badge/TikTok-24283b?style=flat-square&logo=tiktok&logoColor=ffffff)](https://www.tiktok.com/@nekonaruuu)
+[![Email](https://img.shields.io/badge/Email-21262d?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:nicolasdwidharma@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-21262d?style=flat-square&logo=instagram&logoColor=E4405F)](https://instagram.com/nekonaruuu)
+[![TikTok](https://img.shields.io/badge/TikTok-21262d?style=flat-square&logo=tiktok&logoColor=ffffff)](https://www.tiktok.com/@nekonaruuu)
 [![Support](https://img.shields.io/badge/Support-21262d?style=flat-square&logo=buymeacoffee&logoColor=e6edf3)](https://sociabuzz.com/nekonaru/donate)
 
 </div>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:848d97,50:323a45,100:161b22&height=100&section=footer&animation=twinkling" alt="Footer" />
-
-</div>
+<img src="./assets/footer.svg" alt="Thanks for stopping by, built with code and coffee by nekonaru" width="100%" />
