@@ -29,6 +29,16 @@ def esc(text):
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def gpt_badge():
+    svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">'
+        '<rect width="24" height="24" rx="5" fill="#19C37D"/>'
+        '<path d="M8.6 7.2v9.6h2V9.4l2 5.6h1.8l2-5.6v7.4h2V7.2h-2.4l-2.4 6.4L9.7 7.2z" fill="#0d1117"/>'
+        '</svg>'
+    )
+    return base64.b64encode(svg.encode()).decode("ascii")
+
+
 def svg_doc(width, height, body, title):
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
@@ -72,12 +82,10 @@ def icon_ref(name):
         "docker": ("https://cdn.simpleicons.org/docker", "docker"),
         "ytdlp": ("https://cdn.simpleicons.org/youtube", "ytdlp"),
         "opencode": ("https://cdn.simpleicons.org/opencode", "opencode"),
-        "anthropic": ("https://cdn.simpleicons.org/anthropic", "anthropic"),
         "claude": ("https://cdn.simpleicons.org/claude", "claude"),
-        "cursor": ("https://cdn.simpleicons.org/cursor", "cursor"),
-        "copilot": ("https://cdn.simpleicons.org/githubcopilot", "copilot"),
-        "ollama": ("https://cdn.simpleicons.org/ollama", "ollama"),
-        "huggingface": ("https://cdn.simpleicons.org/huggingface", "huggingface"),
+        "gemini": ("https://cdn.simpleicons.org/googlegemini", "gemini"),
+        "hermes": ("https://cdn.simpleicons.org/hermes", "hermes"),
+        "deepseek": ("https://cdn.simpleicons.org/deepseek", "deepseek"),
         "bash": ("https://raw.githubusercontent.com/primer/octicons/main/icons/terminal-16.svg", "bash"),
         "powershell": ("https://raw.githubusercontent.com/primer/octicons/main/icons/terminal-16.svg", "powershell"),
         "vscode": ("https://raw.githubusercontent.com/primer/octicons/main/icons/code-16.svg", "vscode"),
@@ -117,39 +125,51 @@ def stack():
         ], GREEN),
         ("FRAMEWORKS", [("flutter", "Flutter"), ("nextjs", "Next.js"), ("svelte", "Svelte"), ("laravel", "Laravel")], BLUE),
         ("TOOLS", [("git", "Git"), ("github", "Actions"), ("docker", "Docker"), ("vscode", "VS Code"), ("powershell", "PowerShell"), ("bash", "Bash"), ("ytdlp", "yt-dlp")], ORANGE),
-        ("AI", [("opencode", "OpenCode"), ("anthropic", "Anthropic"), ("claude", "Claude"), ("cursor", "Cursor"), ("copilot", "Copilot"), ("ollama", "Ollama"), ("huggingface", "Hugging Face")], PURPLE),
+        ("AI", [("opencode", "OpenCode"), ("claude", "Claude"), ("gpt", "GPT"), ("gemini", "Gemini"), ("hermes", "Hermes"), ("deepseek", "DeepSeek")], PURPLE),
     ]
+    used = {icon for _, items, _ in groups for icon, _ in items}
     defs = []
     for key, payload in ICONS.items():
-        defs.append(f'<image id="icon-{key}" href="data:image/svg+xml;base64,{payload}" width="30" height="30"/>')
+        if key in used:
+            defs.append(f'<image id="icon-{key}" href="data:image/svg+xml;base64,{payload}" width="24" height="24"/>')
+
+    COLS = 6
+    CELL_W, CELL_H, GAP = 176, 44, 14
+    X0 = 168
+    y = 84
     body = [f'<defs>{"".join(defs)}</defs>']
-    body.append(f'<rect width="1200" height="560" fill="{BG}"/>')
-    body.append(f'<rect x="22" y="16" width="1156" height="528" rx="18" fill="{PANEL}" stroke="{BORDER}" stroke-width="2"/>')
-    body.append(f'<text x="56" y="64" font-family="{FONT}" font-size="17" fill="{MUTED}" letter-spacing="5">STACK</text>')
-    body.append(f'<line x1="56" y1="76" x2="1144" y2="76" stroke="{BORDER}"/>')
-    cols = 6
-    cell_w, cell_h = 176, 54
-    x0 = 48
-    y = 88
+    body.append(f'<rect width="1200" height="640" fill="{BG}"/>')
+    body.append(f'<rect x="22" y="16" width="1156" height="608" rx="18" fill="{PANEL}" stroke="{BORDER}" stroke-width="2"/>')
+    body.append(f'<text x="56" y="60" font-family="{FONT}" font-size="17" fill="{MUTED}" letter-spacing="5">STACK</text>')
+    body.append(f'<line x1="56" y1="72" x2="1144" y2="72" stroke="{BORDER}"/>')
     for title, items, accent in groups:
-        body.append(f'<rect x="40" y="{y}" width="92" height="26" rx="13" fill="{PANEL_SOFT}" stroke="{accent}"/>')
-        body.append(f'<text x="86" y="{y + 17}" font-family="{FONT}" font-size="11" letter-spacing="1" fill="{accent}" text-anchor="middle">{title}</text>')
+        nrows = (len(items) + COLS - 1) // COLS
+        row_h = nrows * CELL_H + (nrows - 1) * GAP
+        cy = y + row_h // 2
+        body.append(f'<rect x="40" y="{cy - 16}" width="100" height="32" rx="16" fill="{PANEL_SOFT}" stroke="{accent}"/>')
+        body.append(f'<text x="90" y="{cy + 5}" font-family="{FONT}" font-size="11" letter-spacing="1" fill="{accent}" text-anchor="middle">{title}</text>')
         for i, (icon, name) in enumerate(items):
-            col = i % cols
-            row = i // cols
-            x = x0 + 110 + col * cell_w
-            ry = y + row * cell_h
-            body.append(f'<g transform="translate({x}, {ry})"><use href="#icon-{icon}" x="0" y="-15"/><text x="40" y="7" font-family="{FONT}" font-size="12.5" fill="{STRONG}">{esc(name)}</text></g>')
-        row_count = (len(items) + cols - 1) // cols
-        y += 30 + row_count * cell_h + 12
-    height = y + 16
-    return svg_doc(1200, height, "".join(body), f"nekonaru tech stack")
+            col = i % COLS
+            row = i // COLS
+            x = X0 + col * CELL_W
+            ry = y + row * (CELL_H + GAP)
+            body.append(
+                f'<g transform="translate({x}, {ry})">'
+                f'<rect width="{CELL_W - 12}" height="{CELL_H}" rx="12" fill="{PANEL_SOFT}" stroke="{BORDER}"/>'
+                f'<use href="#icon-{icon}" x="10" y="10" width="24" height="24"/>'
+                f'<text x="44" y="29" font-family="{FONT}" font-size="13" fill="{STRONG}">{esc(name)}</text>'
+                f'</g>'
+            )
+        y += row_h + 18
+    return svg_doc(1200, y + 4, "".join(body), "nekonaru tech stack")
 
 
 def ai_orbit():
     defs = []
     for key, payload in ICONS.items():
         defs.append(f'<image id="icon-{key}" href="data:image/svg+xml;base64,{payload}" width="40" height="40"/>')
+    gpt_icon = gpt_badge()
+    defs.append(f'<image id="icon-gpt" href="data:image/svg+xml;base64,{gpt_icon}" width="40" height="40"/>')
     body = [f'<defs>{"".join(defs)}</defs>']
     body.append(f'<rect width="1200" height="430" fill="{BG}"/>')
     body.append(f'<rect x="22" y="16" width="1156" height="398" rx="18" fill="{PANEL}" stroke="{BORDER}" stroke-width="2"/>')
@@ -161,12 +181,12 @@ def ai_orbit():
     body.append(f'<text x="{cx}" y="{cy + 7}" font-family="{FONT}" font-size="25" font-weight="700" fill="{STRONG}" text-anchor="middle" letter-spacing="2">AI</text>')
     import math
     satellites = [
-        (90, "opencode", "OpenCode"),
-        (150, "anthropic", "Anthropic"),
-        (210, "ollama", "Ollama"),
-        (270, "huggingface", "Hugging Face"),
-        (330, "copilot", "Copilot"),
-        (30, "claude", "Claude"),
+        (0, "opencode", "OpenCode"),
+        (60, "claude", "Claude"),
+        (120, "gpt", "GPT"),
+        (180, "gemini", "Gemini"),
+        (240, "hermes", "Hermes"),
+        (300, "deepseek", "DeepSeek"),
     ]
     import math as _m
     for angle, key, label in satellites:
@@ -190,6 +210,7 @@ def main():
     os.makedirs(HERE, exist_ok=True)
     global ICONS
     ICONS = icon_ref(None)
+    ICONS["gpt"] = gpt_badge()
     assets = {
         "stack.svg": stack(),
         "ai-orbit.svg": ai_orbit(),
