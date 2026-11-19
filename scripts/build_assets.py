@@ -334,6 +334,107 @@ def timeline():
     return svg(1200, 430, "".join(parts))
 
 
+def stack():
+    groups = [
+        ("LANGUAGES", [
+            ("Dart", "#0175C2"), ("C#", "#70C8FF"), ("Rust", "#DEA584"), ("TypeScript", "#3178C6"),
+            ("JavaScript", "#F7DF1E"), ("Python", "#3776AB"), ("Go", "#00ADD8"), ("Lua", "#2C2D72"),
+            ("Kotlin", "#7F52FF"), ("PHP", "#777BB4"), ("C++", "#00599C"), ("C", "#A8B9CC"),
+            ("Julia", "#9558B2"), ("Ruby", "#CC342D"), ("Haskell", "#5E5086"), ("Zig", "#F7A41D"),
+            ("Java", "#E76F00"), ("Swift", "#F05138"),
+        ], GREEN),
+        ("FRAMEWORKS", [
+            ("Flutter", "#54C5F8"), ("Next.js", "#EDEDED"), ("Svelte", "#FF3E00"), ("Laravel", "#FF2D20"),
+        ], BLUE),
+        ("TOOLS", [
+            ("Git", "#F05033"), ("GitHub Actions", "#58A6FF"), ("Docker", "#2496ED"), ("VS Code", "#007ACC"),
+            ("PowerShell", "#5391FE"), ("Bash", "#4EAA25"), ("yt-dlp", "#FF0000"),
+        ], ORANGE),
+        ("AI", [
+            ("OpenCode", "#39D353"), ("AI agents", "#BC8CFF"), ("Automation", "#F778BA"),
+        ], PURPLE),
+    ]
+    parts = [f'<rect width="1200" height="470" fill="{BG}"/>']
+    parts.append(f'<rect x="26" y="20" width="1148" height="430" rx="18" fill="{PANEL}" stroke="{BORDER}" stroke-width="2"/>')
+    parts.append(f'<text x="60" y="68" font-family="{FONT}" font-size="16" fill="{MUTED}" letter-spacing="4">STACK</text>')
+    y = 100
+    for title, items, accent in groups:
+        parts.append(f'<rect x="48" y="{y}" width="92" height="26" rx="13" fill="{PANEL_SOFT}" stroke="{accent}"/>')
+        parts.append(f'<text x="94" y="{y + 18}" font-family="{FONT}" font-size="13" letter-spacing="1.5" fill="{accent}" text-anchor="middle">{title}</text>')
+        x = 160
+        for name, color in items:
+            w = 9 + len(name) * 8.4 + 24
+            if x + w > 1150:
+                y += 40
+                x = 160
+            parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="26" rx="13" fill="{PANEL_SOFT}" stroke="{BORDER}"/>')
+            parts.append(f'<circle cx="{x + 13}" cy="{y + 13}" r="4.5" fill="{color}"/>')
+            parts.append(f'<text x="{x + 24}" y="{y + 18}" font-family="{FONT}" font-size="13" fill="{STRONG}">{esc(name)}</text>')
+            x += w + 10
+        y += 74
+    return svg(1200, 470, "".join(parts))
+
+
+def cat_desk():
+    rnd = random.Random(11)
+    stars_ = stars(26, 1200, 1200, 180)
+    windows = []
+    for _ in range(14):
+        x = rnd.uniform(520, 1120)
+        y = rnd.uniform(40, 210)
+        windows.append(f'<rect x="{x:.0f}" y="{y:.0f}" width="8" height="6" fill="{YELLOW}" opacity="{rnd.uniform(0.25, 0.7):.2f}"/>')
+    body = f"""
+<defs>
+  <radialGradient id="lampGlow" cx="0.78" cy="0.78" r="0.28">
+    <stop offset="0" stop-color="{ORANGE}" stop-opacity="0.3"><animate attributeName="stop-opacity" values="0.24;0.36;0.29;0.4;0.24" dur="4.2s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="{ORANGE}" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="desk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1a2331"/><stop offset="0.5" stop-color="#141b26"/><stop offset="1" stop-color="#1a2331"/></linearGradient>
+  <clipPath id="room"><rect x="26" y="26" width="1148" height="388" rx="18"/></clipPath>
+</defs>
+<rect width="1200" height="440" fill="{BG}"/>
+<g clip-path="url(#room)">
+  <rect x="26" y="26" width="1148" height="388" fill="#0e141d"/>
+  {stars_}
+  <circle cx="150" cy="80" r="40" fill="#e8eef7" opacity="0.95"/>
+  {''.join(windows)}
+  <rect x="470" y="60" width="660" height="240" fill="#131c28" stroke="{BORDER}" stroke-width="2"/>
+  <line x1="640" y1="60" x2="640" y2="300" stroke="{BORDER}" stroke-width="3"/>
+  <line x1="810" y1="60" x2="810" y2="300" stroke="{BORDER}" stroke-width="3"/>
+  <line x1="980" y1="60" x2="980" y2="300" stroke="{BORDER}" stroke-width="3"/>
+  <rect x="26" y="300" width="1148" height="114" fill="url(#desk)"/>
+  <rect x="470" y="288" width="660" height="14" fill="#0a0e14"/>
+  <rect x="880" y="226" width="46" height="66" fill="#05070c" stroke="{GREEN}" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M870 292 L936 292 L922 308 L884 308 Z" fill="{GREEN}" opacity="0.9"/>
+  <g transform="translate(590, 190)">
+    <g stroke="{ORANGE}" stroke-width="4" stroke-linejoin="round" fill="#05070c" stroke-linecap="round">
+      <path d="M-10 60 L6 -4 L30 46 Z"/>
+      <path d="M66 46 L84 -4 L104 60 Z"/>
+      <rect x="0" y="42" width="94" height="62" rx="17"/>
+      <path d="M8 100 Q8 140 110 140 L116 140" fill="none"/>
+      <path d="M96 100 Q140 120 150 150" fill="none"/>
+    </g>
+    <circle cx="29" cy="72" r="5" fill="{ORANGE}"><animate attributeName="opacity" values="1;0.25;1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="67" cy="72" r="5" fill="{ORANGE}"><animate attributeName="opacity" values="1;0.25;1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <path d="M48 84 L48 92" stroke="{ORANGE}" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <path d="M520 300 L470 372 L780 372 L726 300 Z" fill="#10151d" opacity="0.9"/>
+  <rect x="470" y="366" width="310" height="8" fill="{BORDER}" opacity="0.7"/>
+  <rect x="900" y="252" width="190" height="10" rx="5" fill="{BORDER}" opacity="0.9"/>
+  <rect x="900" y="268" width="110" height="8" rx="4" fill="{BORDER}" opacity="0.7"/>
+  <g transform="translate(140, 150)">
+    <path d="M0 -46 L0 40" stroke="{ORANGE}" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0 -46 L64 -68" stroke="{ORANGE}" stroke-width="5" stroke-linecap="round"/>
+    <path d="M52 -72 L96 -86 L88 -46 Z" fill="{ORANGE}" stroke="{ORANGE}" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <rect x="26" y="26" width="1148" height="388" fill="url(#lampGlow)"/>
+</g>
+<rect x="26" y="26" width="1148" height="388" rx="18" fill="none" stroke="{BORDER}" stroke-width="2"/>
+<text x="64" y="420" font-family="{FONT}" font-size="14" fill="{MUTED}" letter-spacing="3" opacity="0">work hard, <tspan fill="{ORANGE}">sleep hard</tspan><tspan fill="{ORANGE}"><animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>_</tspan></text>
+"""
+    return svg(1200, 440, body)
+
+
 def footer_art():
     return svg(1200, 150, f"""
 <rect width="1200" height="150" fill="{BG}"/>
@@ -356,6 +457,8 @@ def main():
         "section-stats.svg": section("GITHUB STATS", ORANGE),
         "section-journey.svg": section("JOURNEY", PURPLE),
         "section-connect.svg": section("CONNECT", YELLOW),
+        "stack.svg": stack(),
+        "cat-desk.svg": cat_desk(),
     }
     for name, content in assets.items():
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:

@@ -51,7 +51,9 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dart,ts,js,python,kotlin,php,cpp,rust,c,go,lua,java,swift,julia,ruby,haskell,zig,bash,powershell&theme=dark&perline=10" alt="Programming languages" />
+<img src="./assets/stack.svg" alt="Stack: languages, frameworks, tools and AI" width="100%" />
+
+<img src="./assets/cat-desk.svg" alt="A cat sleeping on the desk" width="100%" />
 
 </div>
 
