@@ -10,7 +10,7 @@
 
 </div>
 
-<img src="./assets/marquee.svg" alt="Tech marquee" width="100%" />
+<img src="./assets/ticker.svg" alt="My public projects" width="100%" />
 
 <img src="./assets/section-journey.svg" alt="Journey" width="100%" />
 
