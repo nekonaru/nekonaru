@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/pedeef">pedeef</a></b><br/>
-<sub>All your PDF tools in one free app. Everything runs on your phone, your files stay in D...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/pedeef?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 18 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
+<sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/lekas">lekas</a></b><br/>
-<sub>Track student tasks and deadlines offline-first, capture them from chat in 5 seconds, f...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/lekas?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 18 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
+<sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kalkulasa">kalkulasa</a></b><br/>
-<sub>Urusi stok dan kas warung harian dengan kasir satu ketuk, modal per barang otomatis, da...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/kalkulasa?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 18 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/cache22">cache22</a></b><br/>
+<sub>One-time secret links that burn after reading, with end-to-end encryption. The server o...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logoColor=white&logo=go" alt="Go" /> <img src="https://img.shields.io/github/stars/nekonaru/cache22?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 19 Nov 2026</sub>
 </td>
 </tr>
 </table>
