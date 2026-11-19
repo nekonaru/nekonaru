@@ -10,7 +10,7 @@
 
 </div>
 
-<img src="./assets/ticker.svg" alt="My public projects" width="100%" />
+<img src="./assets/marquee.svg" alt="Tech marquee" width="100%" />
 
 <img src="./assets/section-journey.svg" alt="Journey" width="100%" />
 
@@ -51,7 +51,9 @@
 
 <div align="center">
 
-<img src="./assets/stack.svg" alt="Stack: languages, frameworks, tools and AI" width="100%" />
+<img src="./assets/stack.svg" alt="Stack: languages, frameworks, tools" width="100%" />
+
+<img src="./assets/ai-orbit.svg" alt="AI toolbox: agents, automation, open models" width="100%" />
 
 <img src="./assets/cat-desk.svg" alt="A cat sleeping on the desk" width="100%" />
 
