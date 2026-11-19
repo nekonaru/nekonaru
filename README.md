@@ -10,6 +10,8 @@
 
 </div>
 
+<img src="./assets/ticker.svg" alt="My public projects" width="100%" />
+
 <img src="./assets/section-journey.svg" alt="Journey" width="100%" />
 
 <img src="./assets/timeline.svg" alt="Timeline of my public work on GitHub" width="100%" />
