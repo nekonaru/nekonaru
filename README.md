@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/jebew">jebew</a></b><br/>
+<sub>Kelola stok, pencatatan penjualan, dan pre-order UMKM mie dalam satu aplikasi dengan st...</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white&logo=typescript" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/nekonaru/jebew?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 24 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
 <sub>Aplikasi Android native untuk memesan teknisi rumah terverifikasi (listrik, pipa, servi...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 23 Nov 2026</sub>
+<sub>Updated 24 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
-<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 22 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kikoe">kikoe</a></b><br/>
-<sub>Transcribe audio and video into text and subtitles entirely on your device. Free, unlim...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/kikoe?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 22 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
+<sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 24 Nov 2026</sub>
 </td>
 </tr>
 </table>
