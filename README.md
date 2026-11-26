@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/swara">swara</a></b><br/>
-<sub>Play your music collection offline with automatic metadata, synced lyrics, playlists, a...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/swara?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 25 Nov 2026</sub>
-</td>
-<td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/getta">getta</a></b><br/>
-<sub>Fetch media and files from across the web into your own folders with a resumable queue...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&logoColor=white&logo=rust" alt="Rust" /> <img src="https://img.shields.io/github/stars/nekonaru/getta?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 25 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/jebew">jebew</a></b><br/>
+<sub>Kelola stok, pencatatan penjualan, dan pre-order UMKM mie dalam satu aplikasi dengan st...</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white&logo=typescript" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/nekonaru/jebew?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 26 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
 <b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
 <sub>Aplikasi Android native untuk memesan teknisi rumah terverifikasi (listrik, pipa, servi...</sub><br/><br/>
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 25 Nov 2026</sub>
+<sub>Updated 26 Nov 2026</sub>
+</td>
+<td align="center" width="33%">
+<b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
+<sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 26 Nov 2026</sub>
 </td>
 </tr>
 </table>
