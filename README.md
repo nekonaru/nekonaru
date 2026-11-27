@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/wattpdl">wattpdl</a></b><br/>
-<sub>Download Wattpad stories as offline .txt, .docx, .epub, .md, or .pdf files, whole or ch...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white&logo=python" alt="Python" /> <img src="https://img.shields.io/github/stars/nekonaru/wattpdl?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/pedeef">pedeef</a></b><br/>
+<sub>All your PDF tools in one free app. Everything runs on your phone, your files stay in D...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/pedeef?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 27 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/niusic">niusic</a></b><br/>
-<sub>Play local and online music on Android and Windows with library, queue, playlists, YouT...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/niusic?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
+<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 27 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/kalkulasa">kalkulasa</a></b><br/>
-<sub>Urusi stok dan kas warung harian dengan kasir satu ketuk, modal per barang otomatis, da...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/kalkulasa?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 26 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
+<sub>Aplikasi Android native untuk memesan teknisi rumah terverifikasi (listrik, pipa, servi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 27 Nov 2026</sub>
 </td>
 </tr>
 </table>
