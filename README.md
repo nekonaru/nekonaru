@@ -20,22 +20,22 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/pedeef">pedeef</a></b><br/>
-<sub>All your PDF tools in one free app. Everything runs on your phone, your files stay in D...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/pedeef?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 27 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/niusic">niusic</a></b><br/>
+<sub>Play local and online music on Android and Windows with library, queue, playlists, YouT...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/niusic?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 28 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/talos">talos</a></b><br/>
-<sub>Download videos and audio from the web with playlists, subtitles, embedded metadata and...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/talos?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 27 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/rentra">rentra</a></b><br/>
+<sub>Ubah pertanyaan ketersediaan menjadi satu link booking publik dengan kalender ketersedi...</sub><br/><br/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logoColor=white&logo=php" alt="PHP" /> <img src="https://img.shields.io/github/stars/nekonaru/rentra?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 28 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/tukangkilat">tukangkilat</a></b><br/>
-<sub>Aplikasi Android native untuk memesan teknisi rumah terverifikasi (listrik, pipa, servi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logoColor=white&logo=kotlin" alt="Kotlin" /> <img src="https://img.shields.io/github/stars/nekonaru/tukangkilat?style=flat-square&color=26a641" alt="Stars" /><br/>
-<sub>Updated 27 Nov 2026</sub>
+<b><a href="https://github.com/nekonaru/morfa">morfa</a></b><br/>
+<sub>A free, open-source file converter you use by dragging: hold a key and drop files on a...</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logoColor=white&logo=csharp" alt="C#" /> <img src="https://img.shields.io/github/stars/nekonaru/morfa?style=flat-square&color=26a641" alt="Stars" /><br/>
+<sub>Updated 28 Nov 2026</sub>
 </td>
 </tr>
 </table>
