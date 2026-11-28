@@ -20,15 +20,15 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/niusic">niusic</a></b><br/>
-<sub>Play local and online music on Android and Windows with library, queue, playlists, YouT...</sub><br/><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white&logo=dart" alt="Dart" /> <img src="https://img.shields.io/github/stars/nekonaru/niusic?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/portoversion1">portoversion1</a></b><br/>
+<sub>Present professional and creative portfolios with bilingual pages, optimized images, an...</sub><br/><br/>
+<img src="https://img.shields.io/badge/Astro-24283b?style=flat-square&logoColor=white" alt="Astro" /> <img src="https://img.shields.io/github/stars/nekonaru/portoversion1?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 28 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
-<b><a href="https://github.com/nekonaru/rentra">rentra</a></b><br/>
-<sub>Ubah pertanyaan ketersediaan menjadi satu link booking publik dengan kalender ketersedi...</sub><br/><br/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logoColor=white&logo=php" alt="PHP" /> <img src="https://img.shields.io/github/stars/nekonaru/rentra?style=flat-square&color=26a641" alt="Stars" /><br/>
+<b><a href="https://github.com/nekonaru/rynnbot">rynnbot</a></b><br/>
+<sub>Jalankan bot WhatsApp milikmu sendiri dengan ratusan perintah, game, perkakas AI, CLI i...</sub><br/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=black&logo=javascript" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/nekonaru/rynnbot?style=flat-square&color=26a641" alt="Stars" /><br/>
 <sub>Updated 28 Nov 2026</sub>
 </td>
 <td align="center" width="33%">
